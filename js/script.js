@@ -46,10 +46,10 @@ function handleTaskDetails(isForSearch = 0, filteredTask = []) {
         <td>${index + 1}</td>
         <td>${data.taskName}</td>
         <td>${data.status}</td>
-        <td><a href="" class="text-primary"onclick="handleEditTask(${
+        <td><a href="#" class="text-primary border border-primary py-1 px-2" onclick="handleEditTask(${
           data.id
         })"><i class="bi bi-pencil-square"></i></a></td>
-        <td><a href="" class="text-danger" onclick="handleDeletedata(${
+        <td><a href="#" class="text-danger border border-danger py-1 px-2" onclick="handleDeletedata(${
           data.id
         })"><i class="bi bi-trash"></i></a></td>
 
